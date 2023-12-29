@@ -1,0 +1,34 @@
+.se{
+    .v-dialog .v-overlay__content > .v-card{
+        padding: 24px;
+        width: 100%;
+        margin: 0;
+    }
+    .v-dialog .v-overlay__content > .v-card .v-btn--icon.v-btn--density-default{
+        width: auto;
+        padding: 0;
+        height: 28px;
+        min-width: 28px;
+    }
+    .v-card-item .v-card-title{
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .v-dialog .v-overlay__content > .v-card > .v-card-item,
+    .v-dialog .v-overlay__content > .v-card > .v-card-text{
+        padding: 0;
+        margin-bottom: 24px;
+        align-items: baseline;
+    }
+    .v-dialog .v-card-actions{
+        padding: 0;
+        min-height: auto;
+    }
+    .v-card-actions .v-btn{
+        box-shadow: none;
+        padding: 8px 24px;
+    }
+}

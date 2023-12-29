@@ -1,0 +1,124 @@
+.se{
+    .v-label{
+        margin-bottom: 8px;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .v-field--variant-solo{
+        box-shadow: none;
+        border: 1px solid $dark-20;
+
+        &.v-field--focused{
+            border-color: $primary;
+        }
+    }
+
+    .v-field__prepend-inner, .v-field__append-inner, .v-field__clearable{
+        padding-top: 8px;
+    }
+
+    .v-selection-control--dirty .v-switch__thumb{
+        background-color: #fff;
+    }
+    .v-selection-control__input:hover::before{
+        opacity: 0;
+    }
+    .v-switch--inset .v-switch__track{
+        background: #cfd4d8;
+    }
+    .v-selection-control.v-selection-control--dirty.v-selection-control--density-default .v-switch__track{
+        background: $primary;
+        opacity: 1;
+    }
+
+    .v-textarea.v-field__input{
+        box-shadow: none;
+        .v-field__outline{
+            --v-field-border-width: 0;
+            --v-field-border-opacity: 0;
+            border: 1px solid $dark-20;
+        }
+    }
+
+    .v-autocomplete__selection, .v-select__selection{
+        align-items: center;
+    }
+    
+    .v-field__input{
+        padding-top: 6px !important;
+        padding-bottom: 6px !important;
+        align-items: center !important;
+    }
+
+    textarea.v-field__input{
+        padding-top: 16px;
+        height: 100%;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .v-autocomplete .v-field .v-field__input > input{
+        padding-top: 8px;
+    }
+
+    .v-label.v-field-label{
+        top: 12px;
+    }
+
+    .v-input--density-compact .v-field--variant-solo .v-label.v-field-label--floating{
+        top: -5px;
+        background: #fff;
+        display: block;
+        z-index: 2;
+        opacity: 1;
+        padding: 0 4px;
+        color: #6f7d8b;
+        left: -4px;
+        font-size: 10px;
+    }
+
+    .mdi-checkbox-marked::before{
+        color: #007DF1;
+    }
+
+    .v-field--rounded{
+        border-radius: 4px;
+    }
+
+    .v-field__clearable{
+        opacity: 1;
+    }
+
+    .select-min{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+    .select-min .v-input__control{
+        height: 36px;
+
+        span{
+            font-size: 12px;
+        }
+
+        .v-field__append-inner{
+            padding-top: 8px;
+        }
+
+        .v-field__input{
+            padding-top: 4px;
+            padding-bottom: 6px;
+        }
+    }
+
+    .v-text-field .v-input__details{
+        padding-inline-start: 0px;
+        padding-inline-end: 0px;
+    }
+
+    .v-messages__message{
+        color: #F83A3A;
+    }
+}

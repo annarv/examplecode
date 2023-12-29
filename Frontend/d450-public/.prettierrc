@@ -1,0 +1,10 @@
+{
+  "editorconfig": true,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "semi": true,
+  "arrowParens": "always",
+  "trailingComma": "all",
+  "printWidth": 150,
+  "bracketSameLine": false
+}

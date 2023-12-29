@@ -1,0 +1,164 @@
+body.se{
+    background: $body;
+
+    #app{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .wrapper{
+        flex: 1 0 auto;
+    }
+
+    .mw-1024{
+        max-width: 976px;
+    }
+
+    .mw-400{
+        max-width: 400px;
+    }
+
+    .w-400{
+        width: 400px;
+    }
+
+    .w-40p{
+        width: 40%;
+    }
+
+    .w-120{
+        width: 120px;
+    };
+
+    .v-sheet, .v-card{
+        background: #FFFFFF;
+        box-shadow: 0px 1px 3px rgba(17, 29, 40, 0.12);
+        border-radius: 8px;
+        padding: 16px;
+        margin: 16px auto;
+
+        .no-shadow{
+            box-shadow: none;
+        }
+    }
+
+    .v-divider{
+        height: 1px;
+        background: $dividers;
+        width: calc(100% + 32px);
+        margin: 16px -32px;
+    }
+    .footer-fix{
+        flex: 0 0 auto;
+    }
+    footer{
+        padding: 24px 0;
+        white-space: nowrap;
+        font-size: 12px;
+        text-align: right;
+        color: $dark-30;
+        text-align: center;
+    }
+    .text-nowrap{
+        white-space: nowrap;
+    }
+
+    .card-title{
+        .v-card-title{
+            margin-bottom: 12px;
+        }
+    }
+
+    .span-na{
+        white-space: nowrap;
+        position: relative;
+        top: 32px;
+        left: -8px;
+    }
+
+    .info{
+        padding: 0 16px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .menu {
+        width: 100%;
+        a:last-child{
+            margin-left: auto;
+        }
+    }
+    
+}
+
+
+header{
+    height: 64px;
+    background: #fff;
+    border-bottom: 1px solid $dividers;
+}
+
+main{
+    min-height: calc(100vh - 128px);
+}
+
+
+
+
+
+.container{
+    padding: 0 24px;
+    width: 100%;
+}
+
+
+
+.title__block {
+
+    h1{
+        margin-right: auto;
+    }
+
+    button{
+        margin-left: 12px;
+    }
+
+}
+
+.flex__block{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+
+    &-space-between{
+        justify-content: space-between;
+    }
+
+    &-center{
+        align-items: center;
+    }
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-320{
+    width: 320px;
+}
+.w-500{
+    max-width: 500px;
+}
+h1{
+    span{
+        display: block;
+        font-size: 11px;
+        color: $dark-50;
+        margin-top: 8px;
+    }
+}
+
+.option-item {
+    padding: 0 12px;
+}

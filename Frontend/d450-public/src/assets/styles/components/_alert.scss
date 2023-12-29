@@ -1,0 +1,17 @@
+.se{
+    .v-alert-title, .v-alert__content, .v-alert__prepend{
+        color: rgb(176,0,32);
+        .v-icon{
+            color: rgb(176,0,32);
+        }
+    }
+    .v-alert--variant-tonal .v-alert__underlay{
+        color: rgb(176,0,32);
+    }
+    .v-alert__content{
+        font-size: 14px;
+    }
+    .v-alert-title{
+        font-size: 15px;
+    }
+}

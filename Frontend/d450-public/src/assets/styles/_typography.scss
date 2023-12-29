@@ -1,0 +1,32 @@
+.se{
+    *{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: $dark;
+    }
+
+    h1, .v-card-title{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    p{
+        margin-bottom: 8px;
+    }
+    h3{
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+
+
+
+

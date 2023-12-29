@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+
+    &:hover{
+        color: $primary;
+    }
+}
+a,
+button,
+.btn{
+    cursor: pointer;
+}
